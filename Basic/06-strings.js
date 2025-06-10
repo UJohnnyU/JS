@@ -46,4 +46,13 @@ console.log(greeting.toString()); // "Hello, John!" (convierte la cadena a una c
 console.log(greeting.trim()); // "Hello, John!" (elimina los espacios en blanco al inicio y al final de la cadena)
 console.log(greeting.trimEnd()); // "Hello, John!" (elimina los espacios en blanco al final de la cadena)
 console.log(greeting.trimStart()); // "Hello, John!" (elimina los espacios en blanco al inicio de la cadena)
-console.log(greeting.valueOf()); // "Hello, John!" (devuelve el valor primitivo de la cadena, que es la propia cadena)
+console.log(greeting.valueOf()); // "Hello, John!" (devuelve el valor primitivo de la cadena, que es la propia cadena) 
+
+// Plantillas literales (template literals)
+
+let message = `Esta es mi
+practica de JavaScript
+con plantillas literales.`;
+
+console.log(message); // Imprime el mensaje con saltos de línea
+console.log(`Hola, ${name}! ¿Cómo estás?`); // Interpolación de variables
